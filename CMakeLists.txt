@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.0)
+cmake_minimum_required(VERSION 3.2)
 project(cuImageProcessor_examples)
 
 set(CMAKE_CXX_STANDARD 26)
