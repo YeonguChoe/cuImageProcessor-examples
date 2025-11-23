@@ -1,9 +1,11 @@
-#include <iostream>
-#include "cuImageProcessor/resize.cuh"
 #include "cuImageProcessor/bitmap.cuh"
+#include "cuImageProcessor/resize.cuh"
+#include "cuImageProcessor/grayscale.cuh"
+
+#include <iostream>
 
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
+    grayscale("input.bmp");
     return 0;
 }
