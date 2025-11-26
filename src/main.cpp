@@ -2,11 +2,12 @@
 #include "cuImageProcessor/resize.cuh"
 #include "cuImageProcessor/grayscale.cuh"
 #include "cuImageProcessor/crop.cuh"
+#include "cuImageProcessor/flip.cuh"
 
 #include <iostream>
 
 int main()
 {
-    crop("input.bmp", 200, 200, 500, 500);
+    flip_horizontal("input.bmp");
     return 0;
 }
